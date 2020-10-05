@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools" android:orientation="vertical"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".Acerca">
+
+
+    <Space
+            android:layout_width="match_parent"
+            android:layout_height="32dp"/>
+    <TextView
+            android:text="Aplicacion creada by." android:textStyle="bold"
+            android:layout_width="match_parent" android:textSize="28dp"
+            android:layout_height="wrap_content" android:id="@+id/textView" android:textColor="#000"
+            android:textAlignment="center"/>
+    <Space
+            android:layout_width="match_parent"
+            android:layout_height="31dp"/>
+    <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+        <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+                      android:orientation="vertical">
+            <TextView
+                    android:text="Douglas Josue Ayala Cordova" android:textSize="18dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" android:id="@+id/textView2" android:textColor="#000"
+                    android:textAlignment="center"/>
+            <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="14dp"/>
+            <TextView
+                    android:text="Sistemas 21 A" android:textSize="14dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" android:id="@+id/textView3" android:textColor="#000"
+                    android:textAlignment="center"/>
+            <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"/>
+            <TextView
+                    android:text="2020 - ITCA-FEPADE"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" android:id="@+id/textView4" android:textColor="#000"
+                    android:textAlignment="center"/>
+            <Button
+                    android:text="Regresar" android:layout_margin="15dp"
+                    android:layout_width="match_parent" android:onClick="atras"
+                    android:layout_height="wrap_content" android:id="@+id/button"
+                    android:background=" #0000ff" android:textColor="#fff"/>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

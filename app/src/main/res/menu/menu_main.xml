@@ -1,0 +1,22 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.crudsql_lite.MainActivity">
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="100"
+        android:title="Recycler"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/lists0"
+        android:orderInCategory="100"
+        android:title="@string/list0t"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/lists1"
+        android:orderInCategory="100"
+        android:title="Lista de Articulos"
+        app:showAsAction="never" />
+</menu>

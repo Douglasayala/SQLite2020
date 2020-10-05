@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#FFFFFF"
+    tools:context=".consulta_spinner">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginRight="15dp"
+        android:fontFamily="casual"
+        android:text="Seleccione una Opcion"
+        android:textAlignment="gravity"
+        android:textColor="@android:color/background_dark"
+        android:textSize="18sp" />
+
+
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:orientation="vertical"
+       android:background="@drawable/estiloeditext"
+       android:layout_height="wrap_content">
+       <Spinner
+           android:id="@+id/sp_options"
+           android:layout_width="fill_parent"
+           android:layout_height="40dp"
+           android:layout_marginLeft="15dp"
+           android:layout_marginTop="5dp"
+           android:layout_marginRight="15dp"
+
+           android:drawSelectorOnTop="true"
+           android:spinnerMode="dropdown"
+
+           />
+   </LinearLayout>
+
+    <!--android. spinnerMode ——”dialog”-->
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="25dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp">
+
+        <TextView
+            android:id="@+id/tv_cod"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:text="Codigo: "
+            android:textColor="@android:color/background_dark"
+            android:textSize="18sp" />
+
+
+        <TextView
+            android:id="@+id/tv_descripcion"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="25dp"
+            android:layout_marginRight="15dp"
+            android:text="Descripcion: "
+            android:textColor="@android:color/background_dark"
+            android:textSize="18sp" />
+
+
+        <TextView
+            android:id="@+id/tv_precio"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="50dp"
+            android:layout_marginRight="15dp"
+            android:text="Precio: "
+            android:textColor="@android:color/background_dark"
+            android:textSize="18dp" />
+
+
+    </RelativeLayout>
+</LinearLayout>
